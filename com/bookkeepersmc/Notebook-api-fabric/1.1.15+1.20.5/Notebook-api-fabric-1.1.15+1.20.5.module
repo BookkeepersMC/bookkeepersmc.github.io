@@ -36,11 +36,11 @@
         {
           "name": "Notebook-api-fabric-1.1.15+1.20.5.jar",
           "url": "Notebook-api-fabric-1.1.15+1.20.5.jar",
-          "size": 219473,
-          "sha512": "f9ba52e3bd81fc3cd49d186a0dd913805c2eff4081121c649ac99a2af843c3abfe832b3116304e53bfa93b693dd4fa424acd47fdd36cf021f753cadd0326a538",
-          "sha256": "3fabc9fb4525106cea86663e7dcb9cad73d296d5c749743f7f6078eb8b30f069",
-          "sha1": "ac03ff1f0548a6c190b34225ca854bdfe6ad1f77",
-          "md5": "4ce348248ddddde7150886bdf70a22eb"
+          "size": 246202,
+          "sha512": "b5a33d58eaf78140e3e726de6042599fea404f8acfb5d67c1d2a6b0ccfe2ab15720667831b7457f8d5cdec85d6289d54136246bcae8d3e544228afe6c6916cfc",
+          "sha256": "42c336b7a29140c63c0ca5b0de38e227c453c30b0c44355aa7332f973b455206",
+          "sha1": "a275c10148a48d686b7a9e0935c70f50b3050e17",
+          "md5": "420db6bd6d12f2438ee60e9a035dcda1"
         }
       ]
     },
@@ -66,11 +66,11 @@
         {
           "name": "Notebook-api-fabric-1.1.15+1.20.5.jar",
           "url": "Notebook-api-fabric-1.1.15+1.20.5.jar",
-          "size": 219473,
-          "sha512": "f9ba52e3bd81fc3cd49d186a0dd913805c2eff4081121c649ac99a2af843c3abfe832b3116304e53bfa93b693dd4fa424acd47fdd36cf021f753cadd0326a538",
-          "sha256": "3fabc9fb4525106cea86663e7dcb9cad73d296d5c749743f7f6078eb8b30f069",
-          "sha1": "ac03ff1f0548a6c190b34225ca854bdfe6ad1f77",
-          "md5": "4ce348248ddddde7150886bdf70a22eb"
+          "size": 246202,
+          "sha512": "b5a33d58eaf78140e3e726de6042599fea404f8acfb5d67c1d2a6b0ccfe2ab15720667831b7457f8d5cdec85d6289d54136246bcae8d3e544228afe6c6916cfc",
+          "sha256": "42c336b7a29140c63c0ca5b0de38e227c453c30b0c44355aa7332f973b455206",
+          "sha1": "a275c10148a48d686b7a9e0935c70f50b3050e17",
+          "md5": "420db6bd6d12f2438ee60e9a035dcda1"
         }
       ]
     },
@@ -86,11 +86,11 @@
         {
           "name": "Notebook-api-fabric-1.1.15+1.20.5-sources.jar",
           "url": "Notebook-api-fabric-1.1.15+1.20.5-sources.jar",
-          "size": 188326,
-          "sha512": "a55aaed925724daf9d1c6bb478d604f36cea425347eaeaa8141ca2d1bde6624d0d244348e466854830a8dfaa6dfb0f748f18c666571e8b04c25c7bc30a578a3b",
-          "sha256": "be20e0f96be7d2356f85b8103d24433d5a3fb4104985df28561253ed013ecdb7",
-          "sha1": "341bb8531d5afe35eb3ba2b263f6417cad824daa",
-          "md5": "6a66f118cbcc743fa344a9bae9af637a"
+          "size": 208654,
+          "sha512": "9f7b7d114b6391e5870f6f631f01423668882df3aa459b81c467a7f9200d5bec8a77bc6256a8c7dbf1e208886c34130b44abcd83b9a1532175e946b74620e34f",
+          "sha256": "24f5f6b438f06405a6bcb5ebc21401d51679f2741ba74664dd5f01edc44a3360",
+          "sha1": "b66ea2868aa87d7e5cb1f228762bb80e693c67f1",
+          "md5": "3c516f61dc4e5a5926c74af7c01f7e41"
         }
       ]
     },

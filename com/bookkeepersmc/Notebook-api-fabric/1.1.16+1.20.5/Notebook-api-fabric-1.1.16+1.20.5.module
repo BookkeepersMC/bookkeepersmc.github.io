@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bookkeepersmc",
+    "module": "Notebook-api-fabric",
+    "version": "1.1.16+1.20.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.96.15+1.20.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Notebook-api-fabric-1.1.16+1.20.5.jar",
+          "url": "Notebook-api-fabric-1.1.16+1.20.5.jar",
+          "size": 246202,
+          "sha512": "bbf059a951dfd31560377eef8316e8263a5b1ec3dbdf32e990e434dccefd131725962b0302082d86dc0b26d5548c6666b254c11d57ddb19b293117c692cbca6f",
+          "sha256": "de4604c678dff829c1f5236ae3a1de51147bc9c9ea88f51aba0cc6e7e19ea114",
+          "sha1": "1d6d73d26feb0f2d015160666842972ff0d948b3",
+          "md5": "c6fc64bdfe2f96f4e26ac311f8e518b0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.15.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Notebook-api-fabric-1.1.16+1.20.5.jar",
+          "url": "Notebook-api-fabric-1.1.16+1.20.5.jar",
+          "size": 246202,
+          "sha512": "bbf059a951dfd31560377eef8316e8263a5b1ec3dbdf32e990e434dccefd131725962b0302082d86dc0b26d5548c6666b254c11d57ddb19b293117c692cbca6f",
+          "sha256": "de4604c678dff829c1f5236ae3a1de51147bc9c9ea88f51aba0cc6e7e19ea114",
+          "sha1": "1d6d73d26feb0f2d015160666842972ff0d948b3",
+          "md5": "c6fc64bdfe2f96f4e26ac311f8e518b0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "Notebook-api-fabric-1.1.16+1.20.5-sources.jar",
+          "url": "Notebook-api-fabric-1.1.16+1.20.5-sources.jar",
+          "size": 208654,
+          "sha512": "9a48becd8ac78f4fd61b28bf5dcc9347608209caf68a0eeee9e17cc6a7247e8a8e49acf1f3898504ead5dfab9548c5ac0f4008e5f17bfca80c03afd7427909c8",
+          "sha256": "3cab85716ee944abe4a2a2bdb4e741a72a98bd2c1f1faa710b5f2b5efb75358e",
+          "sha1": "7a4c1a47dc295e5b602f45614d90d29c4caa95b0",
+          "md5": "1b3174f83472f0f1b83ea69d07d0c337"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "Notebook-api-fabric-1.1.16+1.20.5-javadoc.jar",
+          "url": "Notebook-api-fabric-1.1.16+1.20.5-javadoc.jar",
+          "size": 83909,
+          "sha512": "73101eb04ad65778eb1b71b5bd13b23b6bf39ebc6df037b8f7a7f257df31a1909cca3ff691b3cccdac7e38506dba955cd670611f4afed2456564019ede7cc5ae",
+          "sha256": "30d5e2b0bc45d01030322043f2cdfe0bb8afaa20ffc7e6e6dc61ff7c3943008e",
+          "sha1": "819af5c0e688432552aa036fcc69e83fafb6a154",
+          "md5": "b109d88a479d959f9d47ef1d3b92643e"
+        }
+      ]
+    }
+  ]
+}

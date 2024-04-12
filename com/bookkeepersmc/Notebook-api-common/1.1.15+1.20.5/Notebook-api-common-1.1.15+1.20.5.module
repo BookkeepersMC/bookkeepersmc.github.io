@@ -29,11 +29,11 @@
         {
           "name": "Notebook-api-common-1.1.15+1.20.5.jar",
           "url": "Notebook-api-common-1.1.15+1.20.5.jar",
-          "size": 223969,
-          "sha512": "0e5f0794c848814ff47368c8f9ba4ca892de0f0cb5d9327d02814712c86829f3ffadc52295cc10bfe6a25458d00eddd85c770d8bd1c3066bceacfd061abb46e3",
-          "sha256": "155a9bda3fb136e1ee4dd5c95e39395832a82bdc07eca647924bd4c362fdd04b",
-          "sha1": "2742891711655f70dd682f704353a723b3876ff8",
-          "md5": "ec971f2043d4e50640b71a6d200454fa"
+          "size": 251461,
+          "sha512": "8ebcddd5499d9c7a6f28f43fdfdc78de8e7da1c81c92813b4176b1c02078c674a1f4c1c807b09e354269353e6bdb84149c383adfdc094a78eb231dfcd36bc5b6",
+          "sha256": "69795e2770ec85c693e652f090644603a9227706cb80fa2e977aaac488a45078",
+          "sha1": "9b3089a11fd4fd82248e9837cc69c9bc21bc792f",
+          "md5": "48906e9e904db7380dec962449f5a5e7"
         }
       ]
     },
@@ -124,11 +124,11 @@
         {
           "name": "Notebook-api-common-1.1.15+1.20.5.jar",
           "url": "Notebook-api-common-1.1.15+1.20.5.jar",
-          "size": 223969,
-          "sha512": "0e5f0794c848814ff47368c8f9ba4ca892de0f0cb5d9327d02814712c86829f3ffadc52295cc10bfe6a25458d00eddd85c770d8bd1c3066bceacfd061abb46e3",
-          "sha256": "155a9bda3fb136e1ee4dd5c95e39395832a82bdc07eca647924bd4c362fdd04b",
-          "sha1": "2742891711655f70dd682f704353a723b3876ff8",
-          "md5": "ec971f2043d4e50640b71a6d200454fa"
+          "size": 251461,
+          "sha512": "8ebcddd5499d9c7a6f28f43fdfdc78de8e7da1c81c92813b4176b1c02078c674a1f4c1c807b09e354269353e6bdb84149c383adfdc094a78eb231dfcd36bc5b6",
+          "sha256": "69795e2770ec85c693e652f090644603a9227706cb80fa2e977aaac488a45078",
+          "sha1": "9b3089a11fd4fd82248e9837cc69c9bc21bc792f",
+          "md5": "48906e9e904db7380dec962449f5a5e7"
         }
       ]
     },
@@ -144,11 +144,11 @@
         {
           "name": "Notebook-api-common-1.1.15+1.20.5-sources.jar",
           "url": "Notebook-api-common-1.1.15+1.20.5-sources.jar",
-          "size": 186298,
-          "sha512": "b6845d74fb26646894d562f354d9e8011522939a98b55fe1717371def8870cc57fcba410de871a335daecdad5a52724353babf6b1e618226a9a9a1359bf4e339",
-          "sha256": "4eeba34d01e418125b68c03dfc84de5a698fff6b750c798beec7c8f567027ddf",
-          "sha1": "a202bf9c0db9ccc5420fdd9f48e8fc55f6d5221d",
-          "md5": "0d6de33e2aefbfc22a672b6830a5913e"
+          "size": 206611,
+          "sha512": "a2301616ccb0ef61d2c8fb02dab8b00d0c98e094ce847bcdacfb3db04a6947e8c3321dad7f3e730b6ed436ac1ef2f2037b23bf4d8fb23b6d654cf5578463e39f",
+          "sha256": "4d7ccc37bada9ab0d226c1965c916b4293acdcc5af29871d68ab80b466d3de3b",
+          "sha1": "b1feb458cd908b866dfa84801149c19316f45a44",
+          "md5": "d4c42c9932b4064596ea4cacdaf043d9"
         }
       ]
     },
@@ -164,11 +164,11 @@
         {
           "name": "Notebook-api-common-1.1.15+1.20.5-javadoc.jar",
           "url": "Notebook-api-common-1.1.15+1.20.5-javadoc.jar",
-          "size": 582076,
-          "sha512": "fda305e7599155be76e5e6be87780961ae1257173e804f86f63659cc50f0d7024e65dcb51a1c084cae97e08c33f23176e4c29224011a10ffb8f8830c79ceb6ff",
-          "sha256": "eae8ebaea136afc816ae14e242fead5fdcf21852e6e5e7dde92059cdafd28b4d",
-          "sha1": "45a19fee076b470cf034e69a4639b3de27904dc5",
-          "md5": "9e1a0ef8535f11ea19a1623251750fe7"
+          "size": 656034,
+          "sha512": "4dcb4ca05b5c556074f242dc698344e714ee15eedbad726c815bd9eee0ba1a08fdec61535fa8ba965479108f846ded32061ab4cd3b8393d5854d8883d51ab395",
+          "sha256": "513c71fc477cd39d167ef9bd9d47651f87e3f736750324fe170e239bf2f0d392",
+          "sha1": "e66cb24e0bb823c342eccb6cd5aa85c00ca2b245",
+          "md5": "6de182253e14bbbb937eeeb91f0bbc58"
         }
       ]
     }
