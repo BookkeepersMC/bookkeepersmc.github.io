@@ -1,0 +1,176 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bookkeepersmc",
+    "module": "Notebook-api-common",
+    "version": "1.1.17+1.20.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "Notebook-api-common-1.1.17+1.20.5.jar",
+          "url": "Notebook-api-common-1.1.17+1.20.5.jar",
+          "size": 271616,
+          "sha512": "d5125149555a7388d5b5c7c4abd2ad098263b45e0d372cd9043888199fc7206a8b1d8c4773c24f6e1178cc5bf4181c0f44211308a82b0e5eb303d67fa63cf487",
+          "sha256": "e983a63314805b4903f7d19b0431bc49e86fcdcc90f8ad46a5364311951205be",
+          "sha1": "1641fa6389a70da13f0e3e775454acab537d8edb",
+          "md5": "afda18f492b0302beb3bd4778e22d0b7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-common",
+          "version": {
+            "requires": "0.3.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core-jvm",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Notebook-api-common-1.1.17+1.20.5.jar",
+          "url": "Notebook-api-common-1.1.17+1.20.5.jar",
+          "size": 271616,
+          "sha512": "d5125149555a7388d5b5c7c4abd2ad098263b45e0d372cd9043888199fc7206a8b1d8c4773c24f6e1178cc5bf4181c0f44211308a82b0e5eb303d67fa63cf487",
+          "sha256": "e983a63314805b4903f7d19b0431bc49e86fcdcc90f8ad46a5364311951205be",
+          "sha1": "1641fa6389a70da13f0e3e775454acab537d8edb",
+          "md5": "afda18f492b0302beb3bd4778e22d0b7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "Notebook-api-common-1.1.17+1.20.5-sources.jar",
+          "url": "Notebook-api-common-1.1.17+1.20.5-sources.jar",
+          "size": 220573,
+          "sha512": "8b891556d50710b9832ff0ea8a0984d58bbad902bb9b2b14651a23bca6a76737990dff7fa3e6ca7d39c64a833d69eca85ca68164910dfec5bee11c0b95ef32ee",
+          "sha256": "c7ebf41e018796ea2d07187aafb0d60d41ea8ece15e69497bdb53af067cd1b42",
+          "sha1": "e9e5e555a8034b61dd987f111407096c3daf73f6",
+          "md5": "76a2b101ac21491ce3431854eda70a13"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "Notebook-api-common-1.1.17+1.20.5-javadoc.jar",
+          "url": "Notebook-api-common-1.1.17+1.20.5-javadoc.jar",
+          "size": 692958,
+          "sha512": "196228e62daab3756bbfcb024cfb6205a5c611aeba65b947439fd958052d74fd05afee99554aede216d0c7d86311aa96de5e1915e7af02d604e0b7c1f4d10d4c",
+          "sha256": "a9817beceac3f7a068918f66206cfaa818486a73f1d9f2decf4c97d44d5801b8",
+          "sha1": "28ade2469fb628af5867daffb0dc5508c22988bb",
+          "md5": "8f737cec71bcedfc128866274bc82fa3"
+        }
+      ]
+    }
+  ]
+}
