@@ -4,9 +4,11 @@
   <artifactId>notebook-loom</artifactId>
   <versioning>
     <latest>1.0-SNAPSHOT</latest>
+    <release>1.0.local</release>
     <versions>
       <version>1.0-SNAPSHOT</version>
+      <version>1.0.local</version>
     </versions>
-    <lastUpdated>20240420181527</lastUpdated>
+    <lastUpdated>20240420192458</lastUpdated>
   </versioning>
 </metadata>

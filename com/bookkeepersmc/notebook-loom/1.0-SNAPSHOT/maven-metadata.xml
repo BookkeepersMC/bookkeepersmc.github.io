@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.bookkeepersmc</groupId>
+  <artifactId>notebook-loom</artifactId>
+  <versioning>
+    <lastUpdated>20240420192457</lastUpdated>
+    <snapshot>
+      <timestamp>20240420.192457</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0-20240420.192457-1</value>
+        <updated>20240420192457</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.0-20240420.192457-1</value>
+        <updated>20240420192457</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.0-20240420.192457-1</value>
+        <updated>20240420192457</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0-20240420.192457-1</value>
+        <updated>20240420192457</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>1.0-SNAPSHOT</version>
+</metadata>
