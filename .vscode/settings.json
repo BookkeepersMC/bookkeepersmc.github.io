@@ -1,0 +1,6 @@
+{
+    "editor.insertSpaces": false,
+    "deno.enablePaths": [
+        "./cli"
+    ]
+}

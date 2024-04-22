@@ -1,28 +1,12 @@
-# eclipse
-bin
-*.launch
-.settings
-.metadata
-.classpath
-.project
+_site/
 
-# idea
-out
-*.ipr
-*.iws
-*.iml
+javascript/node_modules/
+javascript/public/build/
+
 .idea
+.bundle
+.jekyll-cache
+.sass-cache
+vendor
 
-# gradle
-build
-.gradle
-
-# other
-eclipse
-run
-*local.xml
-*local.xml.md5
-*local.xml.sha1
-
-# Files from Forge MDK
-forge*changelog.txt
+.DS_Store
