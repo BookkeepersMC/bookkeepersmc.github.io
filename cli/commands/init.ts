@@ -22,6 +22,7 @@ const error = colors.bold.red;
 const progress = colors.bold.yellow;
 const success = colors.bold.green;
 
+const YARN_ADVANCED_OPTION = "Yarn Mappings";
 const ICON_ADVANCED_OPTION = "Generate Unique Mod Icon";
 const KOTLIN_ADVANCED_OPTION = "Kotlin Programming Language";
 const DATAGEN_ADVANCED_OPTION = "Data Generation";
@@ -224,6 +225,7 @@ async function promptUser(
     minecraftVersion = await Select.prompt({
       message: "Select the minecraft version",
       options: minecraftVersions.map((v) => v.version),
+      default: minecraftVersions.find((v) => v.stable)?.version,
     });
   }
 
@@ -256,6 +258,7 @@ async function promptUser(
     minecraftVersion: minecraftVersion,
     projectName: modName,
     packageName: packageName,
+    yarn: advancedOptions.includes(YARN_ADVANCED_OPTION),
     useKotlin: advancedOptions.includes(KOTLIN_ADVANCED_OPTION),
     dataGeneration: advancedOptions.includes(DATAGEN_ADVANCED_OPTION),
     splitSources: advancedOptions.includes(SPLIT_ADVANCED_OPTION),
@@ -283,7 +286,7 @@ async function defaultOptions(
   startingName: string,
 ): Promise<generator.Configuration> {
   const minecraftVersions = await generator.getTemplateGameVersions();
-  const minecraftVersion = minecraftVersions[0]!.version;
+  const minecraftVersion = minecraftVersions.find((v) => v.stable)!.version;
 
   return {
     modid: generator.nameToModId(startingName),
@@ -292,6 +295,7 @@ async function defaultOptions(
     packageName: generator.formatPackageName(
       generator.nameToModId(startingName),
     ),
+    yarn: false,
     useKotlin: false,
     dataGeneration: false,
     splitSources: generator.minecraftSupportsSplitSources(minecraftVersion),
@@ -304,6 +308,7 @@ function getAdvancedOptions(minecraftVersion: string): CheckboxValueOptions {
 
   options.push({ value: ICON_ADVANCED_OPTION, checked: true });
   options.push({ value: KOTLIN_ADVANCED_OPTION });
+  options.push({ value: YARN_ADVANCED_OPTION });
 
   if (generator.minecraftSupportsDataGen(minecraftVersion)) {
     options.push({

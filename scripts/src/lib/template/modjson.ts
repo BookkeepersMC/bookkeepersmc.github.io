@@ -15,8 +15,11 @@ export async function addModJson(writer: TemplateWriter, canvas: CanvasAdaptorFa
     ...(config.splitSources ? await generateClientMixin(writer, config) : [])
   ];
 
-  const fabricModJson : any = {
-    "schemaVersion": 1,
+  const index = config.minecraftVersion.indexOf("-");
+  const minecraftVersion = config.minecraftVersion.substring(0, index === -1 ? config.minecraftVersion.length : index + 1);
+
+  const notebookModJson : any = {
+    "schema_version": 1,
     "id": config.modid,
     "version": "${version}",
     "name": config.projectName,
@@ -25,7 +28,7 @@ export async function addModJson(writer: TemplateWriter, canvas: CanvasAdaptorFa
       "Me!"
     ],
     "contact": {
-      "homepage": "https://fabricmc.net/",
+      "homepage": "https://bookkeepersmc.github.io/",
       "sources": "https://github.com/FabricMC/fabric-example-mod"
     },
     "license": "CC0-1.0",
@@ -34,8 +37,8 @@ export async function addModJson(writer: TemplateWriter, canvas: CanvasAdaptorFa
     "entrypoints": await generateEntrypoint(writer, config),
     "mixins": mixins,
     "depends": {
-      "fabricloader": ">=" + config.loaderVersion,
-      "minecraft": "~" + config.minecraftVersion,
+      "notebookloader": ">=" + config.loaderVersion,
+      "minecraft": "~" + minecraftVersion,
       "java": ">=" + getJavaVersion(config.minecraftVersion).release
     },
     "suggests": {
@@ -43,15 +46,15 @@ export async function addModJson(writer: TemplateWriter, canvas: CanvasAdaptorFa
     }
   }
 
-  fabricModJson.depends[usesNewModid(config.fabricVersion) ? "fabric-api" : "fabric"] = "*"
+  notebookModJson.depends[usesNewModid(config.fabricVersion) ? "fabric-api" : "fabric"] = "*"
 
   if (config.kotlin) {
-    fabricModJson.depends = {
-      ...fabricModJson.depends,
+    notebookModJson.depends = {
+      ...notebookModJson.depends,
       "fabric-language-kotlin": ">=" + config.kotlin.kotlinVersion
     }
   }
 
-  await writer.write("src/main/resources/fabric.mod.json", JSON.stringify(fabricModJson, null, "\t"));
+  await writer.write("src/main/resources/notebook.mod.json", JSON.stringify(notebookModJson, null, "\t"));
   await writer.write(`src/main/resources/assets/${config.modid}/icon.png`, generateModIcon(config.projectName, config.uniqueModIcon, canvas));
 }

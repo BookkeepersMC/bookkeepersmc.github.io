@@ -11,6 +11,7 @@
     let projectName = "Template Mod";
     let packageName = "com.example";
     let useKotlin = false;
+    let yarn = false;
     let dataGeneration = false;
     let splitSources = true;
 
@@ -20,10 +21,9 @@
     $: modid = nameToModId(projectName);
 
     const versions = Promise.all([getTemplateGameVersions()]).then(([gameVersions]) => {
-        const game = gameVersions;
-        minecraftVersion = game[0].version;
+        minecraftVersion = gameVersions.find((version) => version.stable)!.version;
         return {
-            game,
+            game: gameVersions,
         };
     });
 
@@ -56,6 +56,7 @@
             projectName,
             packageName,
             useKotlin,
+            yarn,
             dataGeneration: dataGeneration && supportsDataGen,
             splitSources: splitSources && supportsSplitSources,
             uniqueModIcon: true
@@ -212,6 +213,16 @@
             </p>
         </div>
 
+        <div>
+            <div class="option-container">
+                <input id="yarn" type="checkbox" class="option-input" bind:checked={yarn} />
+                <label for="yarn" class="option-label">Yarn Mappings</label>
+            </div>
+            <p class="option-body">
+                Use Yarn mappings rather than Mojang's official mappings. Yarn is made by the FabricMC team and is free to use
+            </p>
+        </div>    
+
         {#if supportsDataGen}
         <div>
             <div class="option-container">
@@ -219,7 +230,7 @@
                 <label for="datagen" class="option-label">Data Generation</label>
             </div>
             <p class="option-body">
-                This option configures the <a href="https://fabricmc.net/wiki/tutorial:datagen_setup">Fabric Data Generation API</a> in your mod. This allows you to generate resources such as recipes from code at build time.
+                This option configures the Data Generation API in your mod. This allows you to generate resources such as recipes from code at build time.
             </p>
         </div>
         {/if}

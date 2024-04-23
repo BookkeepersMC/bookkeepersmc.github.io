@@ -5,9 +5,9 @@ permalink: /develop/template/
 topnav: false
 ---
 
-Use this tool to generate a customised template mod project, this is similar to the pre-configured <a href="https://github.com/FabricMC/fabric-example-mod">fabric-example-mod</a>.
+Use this tool to generate a customised template mod project, this is similar to the pre-configured <a href="https://github.com/FabricMC/fabric-example-mod">example-mod</a>.
 
-Please submit any suggestions or feedback to <a href="https://github.com/FabricMC/fabricmc.net">github.com/FabricMC/fabricmc.net</a>
+Please submit any suggestions or feedback to <a href="https://github.com/BookkeepersMC/bookkeepersmc.github.io">github.com/BookkeepersMC/bookkeepersmc.github.io</a>
 
 <noscript style="color:red">You need Javascript to generate a mod template</noscript>
 <div class="fabric-component" data-component="Template"></div>

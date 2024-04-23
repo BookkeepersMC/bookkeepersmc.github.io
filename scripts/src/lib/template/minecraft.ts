@@ -7,7 +7,16 @@ export function minecraftSupportsSplitSources(minecraftVersion: string): boolean
 }
 
 export function getMinorMinecraftVersion(minecraftVersion: string): number {
-	return Number(minecraftVersion.split(".")[1]);
+	return getVersionParts(minecraftVersion)[1];
+}
+
+export function getPathMinecraftVersion(minecraftVersion: string): number {
+	return getVersionParts(minecraftVersion)[2];
+}
+
+function getVersionParts(minecraftVersion: String): number[] {
+	const targetVersion = minecraftVersion.split("-")[0];
+	return targetVersion.split(".").map((v) => parseInt(v));
 }
 
 export function sharedModIdChecks(id: string, isId: boolean): string[] | undefined {

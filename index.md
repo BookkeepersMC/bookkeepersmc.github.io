@@ -19,12 +19,12 @@ layout: default
             <section>
                <p class="component-body">The Notebook Loader is in very early beta, and testing! More coming soon!</p>
             </section>
-            <a class="button secondary" href="https://www.curseforge.com/minecraft/mc-mods/fabric-api/files">Download Notebook API</a>
+            <a class="button secondary" href="https://www.curseforge.com/minecraft/mc-mods/notebook-api/files">Download Notebook API</a>
          </article>
          <article class="column">
             <h3>Develop</h3>
             <section>
-               <p>Notebook gives powerful tools to change the game however you like. Use the <a href="/develop/template/">template generator</a> to start creating a mod. You can also use the <a href="https://github.com/FabricMC/fabric-example-mod">example mod</a> repository.</p>
+               <p>Notebook gives powerful tools to change the game however you like. Use the <a href="/develop/template/">template generator</a> to start creating a mod. You can also use the <a href="https://github.com/BookkeepersMC/notebook-mod-template">template mod</a> repository.</p>
             </section>
             <a class="button secondary" href="/develop/">Develop a Notebook mod</a>
          </article>
@@ -34,7 +34,7 @@ layout: default
    <section>
    <h3>Core Projects</h3>
    <ul>
-      <li><a href="https://github.com/FabricMC/fabric-loader">Fabric Loader</a> A flexible platform-independent mod loader designed for Minecraft and other games and applications.</li>
+      <li><a href="https://github.com/BookkeepersMC/notebook-loader">Notebook Loader</a> A flexible platform-independent mod loader designed for Minecraft and other games and applications.</li>
    </ul>
    </section>
    <hr>

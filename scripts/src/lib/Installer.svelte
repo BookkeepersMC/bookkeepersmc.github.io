@@ -55,14 +55,14 @@
 
     <div class="download">
       <p>
-        The Minecraft and Fabric Loader versions can be selected in the installer, this download
+        The Minecraft and Notebook Loader versions can be selected in the installer, this download
         works for every version we support.
       </p>
 
       {#if win32}
       <p>
         <a class="button primary large" href={selectedVersion.replace('.jar', '.exe')}>
-          <DownloadIcon/> Download for Windows
+          <DownloadIcon/> Download Installer for Windows
         </a>
         <br>
         <a href={selectedVersion}>
@@ -76,7 +76,7 @@
         </a>
         <br>
         <a href={selectedVersion.replace('.jar', '.exe')}>
-          Download for Windows
+          Download Installer for Windows
         </a>
       </p>
     {/if}
