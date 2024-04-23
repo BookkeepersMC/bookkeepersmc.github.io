@@ -1,7 +1,7 @@
-import { S as T, i as A, s as H, h as S, e as h, a as m, u as W, t as j, b as C, d as b, c as J, f as y, g as $, j as q, k, n as w, l as v, m as R, o as U, p as D, q as E, r as z, v as F, w as M, x as N, y as B } from "./index.cec40c11.js";
-import { g as G } from "./Api.69808ac2.js";
-import O from "./DownloadIcon.c969a232.js";
-function V(r, e, t) {
+import { S as A, i as F, s as H, h as S, e as h, a as m, u as N, t as I, b as j, d as b, c as J, f as y, g as $, j as W, k, n as w, l as v, m as R, o as U, p as C, q, r as z, v as E, w as M, x as O, y as B } from "./index.e08f71d5.js";
+import { g as G } from "./Api.5e65932a.js";
+import T from "./DownloadIcon.b41702da.js";
+function D(r, e, t) {
   const l = r.slice();
   return l[10] = e[t], l;
 }
@@ -14,7 +14,7 @@ function K(r) {
     c() {
       e = h("p"), t = y("Error: "), n = y(l), o = $(), s = h("p"), s.innerHTML = `For support please visit one of our
       <a href="/discuss/">community discussion</a>
-      groups.`, q(e, "color", "red");
+      groups.`, W(e, "color", "red");
     },
     m(u, d) {
       m(u, e, d), k(e, t), k(e, n), m(u, o, d), m(u, s, d);
@@ -51,7 +51,7 @@ function P(r) {
   }
   return o = c(r), s = a[o] = i[o](r), {
     c() {
-      f && f.c(), e = $(), t = h("div"), l = h("p"), l.textContent = `The Minecraft and Fabric Loader versions can be selected in the installer, this download\r
+      f && f.c(), e = $(), t = h("div"), l = h("p"), l.textContent = `The Minecraft and Notebook Loader versions can be selected in the installer, this download\r
         works for every version we support.`, n = $(), s.c(), v(t, "class", "download");
     },
     m(p, g) {
@@ -61,10 +61,10 @@ function P(r) {
       _ === (_ = d(p)) && f ? f.p(p, g) : (f && f.d(1), f = _ && _(p), f && (f.c(), f.m(e.parentNode, e))), s.p(p, g);
     },
     i(p) {
-      u || (j(s), u = !0);
+      u || (I(s), u = !0);
     },
     o(p) {
-      C(s), u = !1;
+      j(s), u = !1;
     },
     d(p) {
       f && f.d(p), p && b(e), p && b(t), a[o].d();
@@ -94,7 +94,7 @@ function Q(r) {
       m(l, e, n), t.block.m(l, t.anchor = n), t.mount = () => e.parentNode, t.anchor = e;
     },
     p(l, n) {
-      r = l, W(t, r, n);
+      r = l, N(t, r, n);
     },
     d(l) {
       l && b(e), t.block.d(l), t.token = null, t = null;
@@ -107,14 +107,14 @@ function X(r) {
     r[9]
   ), f = [];
   for (let i = 0; i < _.length; i += 1)
-    f[i] = L(V(r, _, i));
+    f[i] = L(D(r, _, i));
   return {
     c() {
       e = y(`Installer Version:\r
       `), t = h("select");
       for (let i = 0; i < f.length; i += 1)
         f[i].c();
-      l = $(), n = h("br"), o = $(), s = h("br"), q(t, "min-width", "200px"), /*selectedVersion*/
+      l = $(), n = h("br"), o = $(), s = h("br"), W(t, "min-width", "200px"), /*selectedVersion*/
       r[2] === void 0 && U(() => (
         /*select_change_handler*/
         r[7].call(t)
@@ -124,12 +124,12 @@ function X(r) {
       m(i, e, a), m(i, t, a);
       for (let c = 0; c < f.length; c += 1)
         f[c] && f[c].m(t, null);
-      D(
+      C(
         t,
         /*selectedVersion*/
         r[2],
         !0
-      ), m(i, l, a), m(i, n, a), m(i, o, a), m(i, s, a), u || (d = E(
+      ), m(i, l, a), m(i, n, a), m(i, o, a), m(i, s, a), u || (d = q(
         t,
         "change",
         /*select_change_handler*/
@@ -143,7 +143,7 @@ function X(r) {
         i[9];
         let c;
         for (c = 0; c < _.length; c += 1) {
-          const p = V(i, _, c);
+          const p = D(i, _, c);
           f[c] ? f[c].p(p, a) : (f[c] = L(p), f[c].c(), f[c].m(t, null));
         }
         for (; c < f.length; c += 1)
@@ -151,7 +151,7 @@ function X(r) {
         f.length = _.length;
       }
       a & /*selectedVersion, versions*/
-      20 && D(
+      20 && C(
         t,
         /*selectedVersion*/
         i[2]
@@ -171,7 +171,7 @@ function Z(r) {
     /*latest*/
     ((o = r[13]) == null ? void 0 : o.stable) && x(r)
   ), n = !/*expertOptions*/
-  r[1] && I(r);
+  r[1] && V(r);
   return {
     c() {
       e = h("p"), l && l.c(), t = $(), n && n.c();
@@ -183,7 +183,7 @@ function Z(r) {
       var d;
       /*latest*/
       (d = s[13]) != null && d.stable && l.p(s, u), /*expertOptions*/
-      s[1] ? n && (n.d(1), n = null) : n ? n.p(s, u) : (n = I(s), n.c(), n.m(e, null));
+      s[1] ? n && (n.d(1), n = null) : n ? n.p(s, u) : (n = V(s), n.c(), n.m(e, null));
     },
     d(s) {
       s && b(e), l && l.d(), n && n.d();
@@ -208,14 +208,14 @@ function x(r) {
     }
   };
 }
-function I(r) {
+function V(r) {
   let e, t, l;
   return {
     c() {
       e = h("a"), e.textContent = "Show beta versions", v(e, "href", "#");
     },
     m(n, o) {
-      m(n, e, o), t || (l = E(e, "click", B(
+      m(n, e, o), t || (l = q(e, "click", B(
         /*showExpertOptions*/
         r[5]
       )), t = !0);
@@ -250,9 +250,9 @@ function L(r) {
 }
 function te(r) {
   let e, t, l, n, o, s, u, d, _, f, i;
-  return l = new O({}), {
+  return l = new T({}), {
     c() {
-      e = h("p"), t = h("a"), F(l.$$.fragment), n = y(" Download installer (Universal/.JAR)"), o = $(), s = h("br"), u = $(), d = h("a"), _ = y("Download for Windows"), v(t, "class", "button primary large"), v(
+      e = h("p"), t = h("a"), E(l.$$.fragment), n = y(" Download installer (Universal/.JAR)"), o = $(), s = h("br"), u = $(), d = h("a"), _ = y("Download Installer for Windows"), v(t, "class", "button primary large"), v(
         t,
         "href",
         /*selectedVersion*/
@@ -275,21 +275,21 @@ function te(r) {
       a[2].replace(".jar", ".exe"))) && v(d, "href", f);
     },
     i(a) {
-      i || (j(l.$$.fragment, a), i = !0);
+      i || (I(l.$$.fragment, a), i = !0);
     },
     o(a) {
-      C(l.$$.fragment, a), i = !1;
+      j(l.$$.fragment, a), i = !1;
     },
     d(a) {
-      a && b(e), N(l);
+      a && b(e), O(l);
     }
   };
 }
 function le(r) {
   let e, t, l, n, o, s, u, d, _, f, i;
-  return l = new O({}), {
+  return l = new T({}), {
     c() {
-      e = h("p"), t = h("a"), F(l.$$.fragment), n = y(" Download for Windows"), s = $(), u = h("br"), d = $(), _ = h("a"), f = y("Download universal jar"), v(t, "class", "button primary large"), v(t, "href", o = /*selectedVersion*/
+      e = h("p"), t = h("a"), E(l.$$.fragment), n = y(" Download Installer for Windows"), s = $(), u = h("br"), d = $(), _ = h("a"), f = y("Download universal jar"), v(t, "class", "button primary large"), v(t, "href", o = /*selectedVersion*/
       r[2].replace(".jar", ".exe")), v(
         _,
         "href",
@@ -312,13 +312,13 @@ function le(r) {
       );
     },
     i(a) {
-      i || (j(l.$$.fragment, a), i = !0);
+      i || (I(l.$$.fragment, a), i = !0);
     },
     o(a) {
-      C(l.$$.fragment, a), i = !1;
+      j(l.$$.fragment, a), i = !1;
     },
     d(a) {
-      a && b(e), N(l);
+      a && b(e), O(l);
     }
   };
 }
@@ -364,15 +364,15 @@ function re(r) {
       m(n, e, o), l.block.m(e, l.anchor = null), l.mount = () => e, l.anchor = null, t = !0;
     },
     p(n, [o]) {
-      r = n, W(l, r, o);
+      r = n, N(l, r, o);
     },
     i(n) {
-      t || (j(l.block), t = !0);
+      t || (I(l.block), t = !0);
     },
     o(n) {
       for (let o = 0; o < 3; o += 1) {
         const s = l.blocks[o];
-        C(s);
+        j(s);
       }
       t = !1;
     },
@@ -409,9 +409,9 @@ function oe(r, e, t) {
     i
   ];
 }
-class fe extends T {
+class fe extends A {
   constructor(e) {
-    super(), A(this, e, oe, re, H, {});
+    super(), F(this, e, oe, re, H, {});
   }
 }
 export {

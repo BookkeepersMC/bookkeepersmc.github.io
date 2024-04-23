@@ -5,10 +5,10 @@ const s = (e, n) => {
   });
 };
 function o(e) {
-  return () => s(/* @__PURE__ */ Object.assign({ "./lib/DownloadIcon.svelte": () => import("./DownloadIcon.c969a232.js"), "./lib/Installer.svelte": () => import("./Installer.b8b5aeb7.js"), "./lib/LegacyVersion.svelte": () => import("./LegacyVersion.a632ca26.js"), "./lib/MCUpdater.svelte": () => import("./MCUpdater.6dce4782.js"), "./lib/Server.svelte": () => import("./Server.86df3122.js"), "./lib/Technic.svelte": () => import("./Technic.2d1651fd.js"), "./lib/Template.svelte": () => import("./Template.6496a65e.js"), "./lib/Versions.svelte": () => import("./Versions.03760faa.js") }), `./lib/${e}.svelte`);
+  return () => s(/* @__PURE__ */ Object.assign({ "./lib/DownloadIcon.svelte": () => import("./DownloadIcon.b41702da.js"), "./lib/Installer.svelte": () => import("./Installer.2103788b.js"), "./lib/LegacyVersion.svelte": () => import("./LegacyVersion.d31f6683.js"), "./lib/MCUpdater.svelte": () => import("./MCUpdater.d8cb5621.js"), "./lib/Technic.svelte": () => import("./Technic.5cae91ca.js"), "./lib/Template.svelte": () => import("./Template.c36125c6.js"), "./lib/Versions.svelte": () => import("./Versions.027a6b93.js") }), `./lib/${e}.svelte`);
 }
 const c = o("Installer"), l = o("MCUpdater"), a = o("Technic"), m = o("Server"), p = o("Versions"), u = o("Template");
-let v = {
+let d = {
   Installer: c,
   MCUpdater: l,
   Technic: a,
@@ -16,14 +16,14 @@ let v = {
   Versions: p,
   Template: u
 };
-function d() {
+function f() {
   for (const e of document.getElementsByClassName("fabric-component")) {
     if (!(e instanceof HTMLElement))
       continue;
     const n = e.dataset.component;
     if (!n)
       throw new Error("Missing data-component attribute");
-    const t = v[n];
+    const t = d[n];
     if (!t)
       throw new Error("Unknown component: " + n);
     t().then((r) => {
@@ -33,4 +33,4 @@ function d() {
     });
   }
 }
-document.addEventListener("DOMContentLoaded", d);
+document.addEventListener("DOMContentLoaded", f);
