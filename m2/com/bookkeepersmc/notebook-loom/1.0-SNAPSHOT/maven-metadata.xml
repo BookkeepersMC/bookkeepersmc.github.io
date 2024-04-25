@@ -3,32 +3,32 @@
   <groupId>com.bookkeepersmc</groupId>
   <artifactId>notebook-loom</artifactId>
   <versioning>
-    <lastUpdated>20240420192457</lastUpdated>
+    <lastUpdated>20240425155707</lastUpdated>
     <snapshot>
-      <timestamp>20240420.192457</timestamp>
+      <timestamp>20240425.155707</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.0-20240420.192457-1</value>
-        <updated>20240420192457</updated>
+        <extension>module</extension>
+        <value>1.0-20240425.155707-1</value>
+        <updated>20240425155707</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0-20240425.155707-1</value>
+        <updated>20240425155707</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0-20240420.192457-1</value>
-        <updated>20240420192457</updated>
+        <value>1.0-20240425.155707-1</value>
+        <updated>20240425155707</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>1.0-20240420.192457-1</value>
-        <updated>20240420192457</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.0-20240420.192457-1</value>
-        <updated>20240420192457</updated>
+        <extension>jar</extension>
+        <value>1.0-20240425.155707-1</value>
+        <updated>20240425155707</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
