@@ -56,27 +56,19 @@
     <div class="download">
       <p>
         The Minecraft and Notebook Loader versions can be selected in the installer, this download
-        works for every version we support.
+        works for the MC version you choose, the loader version depends on the MC version.
       </p>
 
       {#if win32}
       <p>
-        <a class="button primary large" href={selectedVersion.replace('.jar', '.exe')}>
-          <DownloadIcon/> Download Installer for Windows
-        </a>
-        <br>
-        <a href={selectedVersion}>
-          Download universal jar
+	<a href="https://github.com/BookkeepersMC/notebook-loader/wiki/Installation-Instructions">
+          <DownloadIcon/> Install Instructions
         </a>
       </p>
     {:else}
       <p>
-        <a class="button primary large" href={selectedVersion}>
-          <DownloadIcon/> Download installer (Universal/.JAR)
-        </a>
-        <br>
-        <a href={selectedVersion.replace('.jar', '.exe')}>
-          Download Installer for Windows
+	<a>
+          <DownloadIcon/> Install Instructions
         </a>
       </p>
     {/if}
