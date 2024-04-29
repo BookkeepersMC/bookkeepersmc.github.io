@@ -61,14 +61,22 @@
 
       {#if win32}
       <p>
-	<a href="https://github.com/BookkeepersMC/notebook-loader/wiki/Installation-Instructions">
-          <DownloadIcon/> Install Instructions
+        <a class="button primary large" href={selectedVersion.replace('.jar', '.exe')}>
+          <DownloadIcon/> Download for Windows
+        </a>
+        <br>
+        <a href={selectedVersion}>
+          Download universal jar
         </a>
       </p>
     {:else}
       <p>
-	<a>
-          <DownloadIcon/> Install Instructions
+        <a class="button primary large" href={selectedVersion}>
+          <DownloadIcon/> Download installer (Universal/.JAR)
+        </a>
+        <br>
+        <a href={selectedVersion.replace('.jar', '.exe')}>
+          Download for Windows
         </a>
       </p>
     {/if}
