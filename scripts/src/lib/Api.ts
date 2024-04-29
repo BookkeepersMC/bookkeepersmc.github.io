@@ -30,11 +30,10 @@ export interface YarnVersion {
 // Do not use these fallback servers to interact with our web services. They can and will be unavailable at times and only support limited throughput.
 const META = ["https://meta.fabricmc.net", "https://meta2.fabricmc.net"];
 const NOTEBOOK_META = ["https://bookkeepersmc.github.io/meta"];
-const TEST_META = ["https://localhost:4000/meta"];
 const MAVEN = ["https://maven.fabricmc.net", "https://maven2.fabricmc.net"];
 
 export async function getInstallerVersions() {
-    return getJson<InstallerVersion[]>(TEST_META, "/versions/installer");
+    return getJson<InstallerVersion[]>(META, "/v2/versions/installer");
 }
 
 export async function getGameVersions() {

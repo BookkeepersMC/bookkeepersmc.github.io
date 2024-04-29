@@ -61,21 +61,21 @@
 
       {#if win32}
       <p>
-        <a class="button primary large" href={selectedVersion.replace('.jar', '.exe')}>
+        <a class="button primary large" href="https://bookkeepersmc.github.io/m2/com/bookkeepersmc/notebook-installer/1.0.0/notebook-installer-1.0.0.exe">
           <DownloadIcon/> Download for Windows
         </a>
         <br>
-        <a href={selectedVersion}>
+        <a href="https://bookkeepersmc.github.io/m2/com/bookkeepersmc/notebook-installer/1.0.0/notebook-installer-1.0.0.jar">
           Download universal jar
         </a>
       </p>
     {:else}
       <p>
-        <a class="button primary large" href={selectedVersion}>
+        <a class="button primary large" href="https://bookkeepersmc.github.io/m2/com/bookkeepersmc/notebook-installer/1.0.0/notebook-installer-1.0.0.jar">
           <DownloadIcon/> Download installer (Universal/.JAR)
         </a>
         <br>
-        <a href={selectedVersion.replace('.jar', '.exe')}>
+        <a href="https://bookkeepersmc.github.io/m2/com/bookkeepersmc/notebook-installer/1.0.0/notebook-installer-1.0.0.exe">
           Download for Windows
         </a>
       </p>
